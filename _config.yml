@@ -1,37 +1,12 @@
-# Configuración básica
-title: "Harold Mike Montecinos Mujiano"
-description: "Software Backend Developer | Java Specialist"
+title: "Harold Montecinos"
+description: "Backend Developer | Java Specialist"
 url: "https://harold-20-06.github.io"
-baseurl: ""
+theme: jekyll-theme-minimal
 
-# Tema y diseño
-theme: jekyll-theme-minimal  # Tema por defecto de GitHub Pages
+avatar: "https://avatars.githubusercontent.com/u/32402240?v=4"
 
-# Información personal
-avatar: "https://avatars.githubusercontent.com/u/32402240?v=4&size=64"
-email: "haroldmontecinos2002@gmail.com"
-
-# Redes sociales
-footer-links:
-  email: "haroldmontecinos2002@gmail.com"
-  github: "harold-20-06"
-  linkedin: "https://www.linkedin.com/in/harold-montecinos/"
-
-# Configuración técnica
-markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-  hard_wrap: false
-
-# Build settings
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - .gitignore
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
