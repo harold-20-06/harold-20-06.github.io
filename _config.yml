@@ -1,44 +1,37 @@
-#
-# Configuración personalizada para tu sitio Jekyll
-#
+# Configuración básica
+title: "Harold Mike Montecinos Mujiano"
+description: "Software Backend Developer | Java Specialist"
+url: "https://harold-20-06.github.io"
+baseurl: ""
 
-# Nombre y descripción
-name: Harold Mike Montecinos Mujiano
-description: Software Backend Developer | Java Specialist
+# Tema y diseño
+theme: jekyll-theme-minimal  # Tema por defecto de GitHub Pages
 
-# Avatar (reemplaza con tu foto de perfil)
-avatar: https://avatars.githubusercontent.com/u/32402240?v=4&size=64
+# Información personal
+avatar: "https://avatars.githubusercontent.com/u/32402240?v=4&size=64"
+email: "haroldmontecinos2002@gmail.com"
 
-# Información de contacto y redes
+# Redes sociales
 footer-links:
-  email: haroldmontecinos2002@gmail.com
-  github: harold-20-06
-  linkedin: https://www.linkedin.com/in/harold-montecinos/
-  # Opcionales (elimina los que no uses):
-  # twitter: tu-usuario
-  # stackoverflow: users/tu-id
+  email: "haroldmontecinos2002@gmail.com"
+  github: "harold-20-06"
+  linkedin: "https://www.linkedin.com/in/harold-montecinos/"
 
-# Configuración técnica (no modificar si no es necesario)
-url: https://harold-20-06.github.io
-baseurl: ""  # Déjalo vacío si es tu repositorio principal (username.github.io)
-
-# Jekyll settings
-permalink: /:title/
-version: v1.2.0
-
-# Markdown y sintaxis
+# Configuración técnica
+markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+  hard_wrap: false
 
-# Plugins esenciales
+# Build settings
 plugins:
-  - jekyll-sitemap
   - jekyll-feed
+  - jekyll-sitemap
 
-# Excluir archivos innecesarios
 exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE
   - README.md
+  - .gitignore
