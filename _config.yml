@@ -1,14 +1,32 @@
-title: Harold Montecinos  
-description: Backend Developer Java | Spring Boot | APIs REST  
-baseurl: ""  
-url: "https://haroldmontecinos.github.io"  
+# _config.yml - Configuración profesional para Harold Montecinos
 
-# Redes sociales
+# Identidad del sitio
+title: Harold Montecinos
+description: Backend Developer Java | Spring Boot | Microservicios | APIs REST
+baseurl: ""
+url: "https://haroldmontecinos.github.io"
+
+# Información de contacto
+email: harold.montecinos@ejemplo.com  # Reemplaza con tu email real
+
+# Redes sociales (URL completas para mejor SEO)
 social:
-  github: github.com/harold-20-06
-  linkedin: linkedin.com/in/harold-montecinos
-  #twitter: tu-twitter    # Opcional
+  github: https://github.com/harold-20-06
+  linkedin: https://linkedin.com/in/harold-montecinos
+  #twitter: https://twitter.com/tu-usuario  # Descomenta si lo usas
 
 # Configuración técnica
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag  # Recomendado para SEO
+
+# Opciones de Jekyll
+markdown: kramdown
+highlighter: rouge  # Para resaltado de código
+theme: minima  # Tema por defecto (puedes cambiarlo)
+
+# Personalización adicional
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md

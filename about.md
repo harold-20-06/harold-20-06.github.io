@@ -3,7 +3,7 @@ layout: page
 title: Sobre Mí
 ---
 
-![Harold Montecinos](/images/harold-montecinos-avatar.jpg){: .profile-image }
+![Harold Montecinos](/images/harold-montecinos-avatar.jpeg){: .profile-image }
 
 Soy **Harold Montecinos**, Backend Developer con más de X años de experiencia en desarrollo de aplicaciones escalables con Java.  
 
@@ -26,3 +26,4 @@ public class ApiController {
         return "Hola desde mi GitHub Pages!";
     }
 }
+```
