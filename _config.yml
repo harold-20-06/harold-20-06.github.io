@@ -1,12 +1,14 @@
-title: "Harold Montecinos"
-description: "Backend Developer | Java Specialist"
-url: "https://harold-20-06.github.io"
-theme: jekyll-theme-minimal
+title: Harold Montecinos  
+description: Backend Developer Java | Spring Boot | APIs REST  
+baseurl: ""  
+url: "https://haroldmontecinos.github.io"  
 
-avatar: "https://avatars.githubusercontent.com/u/32402240?v=4"
+# Redes sociales
+social:
+  github: github.com/harold-20-06
+  linkedin: linkedin.com/in/harold-montecinos
+  #twitter: tu-twitter    # Opcional
 
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: "default"
+# Configuración técnica
+plugins:
+  - jekyll-feed
