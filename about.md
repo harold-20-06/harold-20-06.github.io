@@ -1,7 +1,7 @@
-
 ---
 layout: page
 title: Sobre Mí
+permalink: /about/
 ---
 
 <div align="center">
