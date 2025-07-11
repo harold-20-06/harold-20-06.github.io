@@ -1,29 +1,27 @@
+
 ---
 layout: page
 title: Sobre Mí
 ---
 
-![Harold Montecinos](/images/harold-montecinos-avatar.jpeg){: .profile-image }
+<div align="center">
+  <img src="/images/harold-montecinos-avatar.jpeg" alt="Harold Montecinos" width="160" style="border-radius:50%;margin-bottom:1em;" />
+</div>
 
-Soy **Harold Montecinos**, Backend Developer con más de X años de experiencia en desarrollo de aplicaciones escalables con Java.  
+# Sobre mí
 
-## Experiencia Relevante  
-- **Empresa XYZ** (2020 - Presente):  
-  - Desarrollo de APIs REST con Spring Boot.  
-  - Optimización de queries SQL para mejorar rendimiento en un 40%.  
+Soy Harold Mike Montecinos Mujiano, desarrollador backend especializado en Java, Spring Framework y bases de datos relacionales/no relacionales. Tengo experiencia en aplicaciones empresariales, migraciones de datos y despliegue en la nube (AWS EC2, Docker, WildFly).
 
-## Educación  
-- Ingeniería en Computación, Universidad ABC.  
-- Certificación en Cloud AWS.  
+## Formación Académica
 
-## Habilidades Técnicas  
-```java
-// Ejemplo de código que dominas
-@RestController
-public class ApiController {
-    @GetMapping("/hello")
-    public String hello() {
-        return "Hola desde mi GitHub Pages!";
-    }
-}
-```
+- Diplomado en Desarrollo de Aplicaciones con Software Libre (JAVA), EGPP, 2019
+- Ingeniería de Sistemas, Universidad Loyola, 2007
+
+## Habilidades Técnicas
+
+- **Backend:** Java 8-17, Spring Boot, Jakarta EE, JAX-RS, JDBC, MyBatis, REST
+- **Bases de Datos:** PostgreSQL, Oracle, SQL Server, Hibernate/JPA, MongoDB
+- **DevOps y Servidores:** AWS EC2, Docker, WildFly, Tomcat, JBoss
+- **Herramientas y Testing:** Git, Maven, JUnit, Postman, Swagger, TOAD
+
+[Ver proyectos destacados](/proyectos/)
