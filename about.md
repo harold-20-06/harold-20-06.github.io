@@ -25,3 +25,5 @@ Soy Harold Mike Montecinos Mujiano, desarrollador backend especializado en Java,
 - **Herramientas y Testing:** Git, Maven, JUnit, Postman, Swagger, TOAD
 
 [Ver proyectos destacados](/proyectos/)
+
+[Volver al inicio](/)
